@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-input">
+                <input type="text" placeholder="enter your country name" class="nav-input" spellcheck="false">
+            </div>
+            <button class="nav-serch">
+                <img src="./images/search.png" height="20px" width=" 17px"/>
+            </button>
+        </div>
+        <div class="main-content">
+            <div class="main-img"></div>
+        </div>
+        <div class="text">
+            <h1 class="temp">0°c</h1>
+            <h2 class="country">Germany</h2>
+        </div>
+        <div class="last-container">
+            <div class="humidity">
+                <div class="img-1"></div>
+                <div class="mark">
+                    <h2 class="digit">100%</h2>
+                    <h3 class="label">Humidity</h3>
+                </div>
+            </div>
+            <div class="wind">
+                <div class="img-2"></div>
+                <div class="mark">
+                    <h2 class="digit">1.85 km/h</h2>
+                    <h3 class="label">Wind speed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
